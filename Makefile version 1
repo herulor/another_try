@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # Generate document in html and pdf formats
 quarto render ./src/qmd/iris.qmd  --to html,pdf
